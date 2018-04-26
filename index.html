@@ -7,17 +7,7 @@
 </head>
 <body>
 <h1> DEVIS DE MAITENANCE : </h1>
-
-<ul >
-	<li class="bronze">Offre Bronze </li>
-	<li>40 € / mois </li>
-	<li>1 heure de maitenance / mois </li>
-	<li>2 sauvegardes site complet / mois </li>
-	<li>2 sauvegardes de base de données / mois</li>
-	<li>Mise à jour de CMS</li>
-	<li>intervention : Sous 48h</li>
-</ul>
-
+<div>
 <ul>
 	<li class="silver">Offre Silver</li>
 	<li>65 € / mois</li>
@@ -34,7 +24,9 @@
 	<li>2 sauvegardes site complet / semaine</li>
 	<li>2 sauvegardes de base de données / semaine</li>
 	<li>Mise à jour de CMS</li>
+	<li>Gestion du contenue : insertion d'articles, images, etc... ( à raison de 1 jour de travail/mois)</li>
 	<li>intervention : Sous 48h</li>
+
 </ul>
 <ul>
 	<li class="platinum">Offre Platine</li>
@@ -43,6 +35,7 @@
 	<li>2 sauvegardes site complet / semaine</li>
 	<li>3 sauvegardes de base de données / semaine</li>
 	<li>Mise à jour de CMS</li>
+	<li>Gestion du contenue : insertion d'articles, images, etc... ( à raison de 2 jours  de travail/mois)</li>
 	<li>intervention : Sous 24h</li>
 </ul>
 <ul>
@@ -52,11 +45,12 @@
 	<li>1 sauvegarde site complet / jour</li>
 	<li>5 sauvegardes de base de données / semaine</li>
 	<li>Mise à jour de CMS</li>
+	<li>Gestion du contenue : insertion d'articles, images, etc... ( de façon illimité )</li>
 	<li>intervention : Sous 24h</li>
 </ul>
+</div>
 
-
-
+<legend>*Pour toute heure supplémentaire cette dernière sera facturer 40€/h. </legend>
 
 
 <style type="text/css">
@@ -68,7 +62,7 @@ h1{
 }
 	ul{
 		margin-top: 25vh;
-		display: inline-block;
+		display: inline-grid;
 		list-style: none;
 		/*background-color: red;*/
 		padding-left: 0;
@@ -102,6 +96,10 @@ h1{
 	}
 	.diamond{
 		background: linear-gradient(to top, rgba(160,0,12,0.6), rgba(160,0,12,1));
+	}
+	legend{
+		margin-top: 50px;
+		font-size: 0.8em;
 	}
 </style>
 </body>
